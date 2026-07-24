@@ -1,0 +1,651 @@
+{
+  "track": "allagree",
+  "total_time_minutes": 36.60187723636627,
+  "qubo_matrix": [
+    [
+      0.0008710981414465496,
+      0.031674318995514684,
+      -0.029878829553953608,
+      -0.022960871748761054,
+      -0.002102975001683069
+    ],
+    [
+      0.0,
+      -0.02004131618526706,
+      0.01502709911073903,
+      -0.016951163537173086,
+      0.005831884938908688
+    ],
+    [
+      0.0,
+      0.0,
+      0.04037302948580144,
+      0.009457921161811106,
+      0.004553610026050447
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.02789754474972787,
+      -0.00110535837732392
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.019222243644517953
+    ]
+  ],
+  "results": [
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "val_loss": 0.12949657315303656,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": 0.0
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "val_loss": 0.11597177753521298,
+      "val_accuracy": 0.9676470588235294,
+      "qubo_value": -0.019222243644517953
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "val_loss": 0.13535263440148396,
+      "val_accuracy": 0.9588235294117647,
+      "qubo_value": 0.02789754474972787
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "val_loss": 0.12211112661117857,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": 0.007569942727885998
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "val_loss": 0.1662102337418632,
+      "val_accuracy": 0.9470588235294117,
+      "qubo_value": 0.04037302948580144
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "val_loss": 0.1373359907249158,
+      "val_accuracy": 0.961764705882353,
+      "qubo_value": 0.025704395867333932
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "val_loss": 0.2467990673401139,
+      "val_accuracy": 0.9205882352941176,
+      "qubo_value": 0.07772849539734042
+    },
+    {
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "val_loss": 0.20576747777787122,
+      "val_accuracy": 0.9382352941176471,
+      "qubo_value": 0.061954503401548996
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "val_loss": 0.11632590092697435,
+      "val_accuracy": 0.9676470588235294,
+      "qubo_value": -0.02004131618526706
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "val_loss": 0.11904445245586844,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": -0.033431674890876326
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "val_loss": 0.13490519858896732,
+      "val_accuracy": 0.9588235294117647,
+      "qubo_value": -0.009094934972712274
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "val_loss": 0.09391821535642851,
+      "val_accuracy": 0.9676470588235294,
+      "qubo_value": -0.02359065205564546
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "val_loss": 0.15653704777783292,
+      "val_accuracy": 0.9588235294117647,
+      "qubo_value": 0.03535881241127341
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "val_loss": 0.15138030376031317,
+      "val_accuracy": 0.9529411764705882,
+      "qubo_value": 0.02652206373171459
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "val_loss": 0.15939730304208669,
+      "val_accuracy": 0.9588235294117647,
+      "qubo_value": 0.0557631147856393
+    },
+    {
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "val_loss": 0.18177058386870407,
+      "val_accuracy": 0.9529411764705882,
+      "qubo_value": 0.045821007728756566
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "val_loss": 0.1298340837767517,
+      "val_accuracy": 0.961764705882353,
+      "qubo_value": 0.0008710981414465496
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "val_loss": 0.14270204798297279,
+      "val_accuracy": 0.961764705882353,
+      "qubo_value": -0.020454120504754474
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "val_loss": 0.13379345427859912,
+      "val_accuracy": 0.9529411764705882,
+      "qubo_value": 0.005807771142413366
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "val_loss": 0.11362470229240981,
+      "val_accuracy": 0.9705882352941176,
+      "qubo_value": -0.016622805881111577
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "val_loss": 0.1233802211619067,
+      "val_accuracy": 0.9588235294117647,
+      "qubo_value": 0.01136529807329438
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "val_loss": 0.12533943209564313,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": -0.005406310546856193
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "val_loss": 0.16197607467289676,
+      "val_accuracy": 0.9529411764705882,
+      "qubo_value": 0.0257598922360723
+    },
+    {
+      "config": {
+        "learning_rate": 3e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "val_loss": 0.11452631686221469,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": 0.007882925238597804
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "val_loss": 0.11389699512933889,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": 0.012504100951694175
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "val_loss": 0.08700399345252663,
+      "val_accuracy": 0.9705882352941176,
+      "qubo_value": -0.0029892327555981583
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "val_loss": 0.16186824728819457,
+      "val_accuracy": 0.9470588235294117,
+      "qubo_value": 0.0004896104154879094
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "val_loss": 0.11674640086394819,
+      "val_accuracy": 0.9647058823529412,
+      "qubo_value": -0.016109081669128344
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "val_loss": 0.21981458050537517,
+      "val_accuracy": 0.9352941176470588,
+      "qubo_value": 0.038025399994281034
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "val_loss": 0.15500314078632405,
+      "val_accuracy": 0.9529411764705882,
+      "qubo_value": 0.027085676313039146
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 3
+      },
+      "bitstring": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "val_loss": 0.12170092998580499,
+      "val_accuracy": 0.961764705882353,
+      "qubo_value": 0.03546883061988587
+    },
+    {
+      "config": {
+        "learning_rate": 5e-05,
+        "dropout": 0.3,
+        "batch_size": 32,
+        "epochs": 4
+      },
+      "bitstring": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "val_loss": 0.17783734964376147,
+      "val_accuracy": 0.95,
+      "qubo_value": 0.023423748561320065
+    }
+  ],
+  "best_by_val_loss": {
+    "config": {
+      "learning_rate": 5e-05,
+      "dropout": 0.1,
+      "batch_size": 16,
+      "epochs": 4
+    },
+    "bitstring": [
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "val_loss": 0.08700399345252663
+  },
+  "best_by_qubo": {
+    "config": {
+      "learning_rate": 2e-05,
+      "dropout": 0.1,
+      "batch_size": 16,
+      "epochs": 4
+    },
+    "bitstring": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "qubo_value": -0.033431674890876326
+  }
+}

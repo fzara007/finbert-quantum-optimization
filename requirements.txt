@@ -1,0 +1,15 @@
+qiskit[all]~=2.3.1
+qiskit-ibm-runtime~=0.45.1
+qiskit-algorithms
+qiskit-optimization
+qiskit-aer
+scipy
+torch
+transformers
+datasets
+evaluate
+accelerate
+pandas
+scikit-learn
+matplotlib
+sentencepiece

@@ -1,0 +1,86 @@
+{
+  "track": "primary",
+  "method": "QAOA",
+  "primary_result": {
+    "depth": 1,
+    "bitstring": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "qubo_energy": -0.016934122276522683,
+    "config": {
+      "learning_rate": 1e-05,
+      "dropout": 0.3,
+      "batch_size": 16,
+      "epochs": 3
+    },
+    "time_seconds": 0.8854465484619141,
+    "val_loss": 0.46941715543684753,
+    "val_accuracy": 0.8156808803301238
+  },
+  "results_by_depth": [
+    {
+      "depth": 1,
+      "bitstring": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qubo_energy": -0.016934122276522683,
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "time_seconds": 0.8854465484619141,
+      "val_loss": 0.46941715543684753,
+      "val_accuracy": 0.8156808803301238
+    },
+    {
+      "depth": 2,
+      "bitstring": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qubo_energy": -0.016934122276522683,
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "time_seconds": 1.5898780822753906,
+      "val_loss": 0.46941715543684753,
+      "val_accuracy": 0.8156808803301238
+    },
+    {
+      "depth": 3,
+      "bitstring": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "qubo_energy": -0.016934122276522683,
+      "config": {
+        "learning_rate": 1e-05,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "epochs": 3
+      },
+      "time_seconds": 2.64631986618042,
+      "val_loss": 0.46941715543684753,
+      "val_accuracy": 0.8156808803301238
+    }
+  ]
+}

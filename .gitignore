@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Model weights (too large for GitHub)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Data (raw files - too large, processed CSVs are small enough to include)
+data/raw/
+
+# OS files
+*Zone.Identifier
+.DS_Store
+colab_data.zip

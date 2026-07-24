@@ -1,0 +1,111 @@
+{
+  "track": "allagree",
+  "method": "VQE",
+  "primary_result": {
+    "ansatz": "RealAmplitudes_2layers",
+    "optimizer": "NELDER_MEAD",
+    "bitstring": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "qubo_energy": -0.03343167489087632,
+    "config": {
+      "learning_rate": 2e-05,
+      "dropout": 0.1,
+      "batch_size": 16,
+      "epochs": 4
+    },
+    "time_seconds": 2.0615549087524414,
+    "val_loss": 0.11904445245586844,
+    "val_accuracy": 0.9647058823529412
+  },
+  "all_results": [
+    {
+      "ansatz": "RealAmplitudes_2layers",
+      "optimizer": "COBYLA",
+      "bitstring": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "qubo_energy": -0.03343167489087632,
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "time_seconds": 1.40765380859375,
+      "val_loss": 0.11904445245586844,
+      "val_accuracy": 0.9647058823529412
+    },
+    {
+      "ansatz": "RealAmplitudes_2layers",
+      "optimizer": "NELDER_MEAD",
+      "bitstring": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "qubo_energy": -0.03343167489087632,
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "time_seconds": 2.0615549087524414,
+      "val_loss": 0.11904445245586844,
+      "val_accuracy": 0.9647058823529412
+    },
+    {
+      "ansatz": "EfficientSU2_2layers",
+      "optimizer": "COBYLA",
+      "bitstring": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "qubo_energy": -0.03343167489087632,
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "time_seconds": -1.2495973110198975,
+      "val_loss": 0.11904445245586844,
+      "val_accuracy": 0.9647058823529412
+    },
+    {
+      "ansatz": "EfficientSU2_2layers",
+      "optimizer": "NELDER_MEAD",
+      "bitstring": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "qubo_energy": -0.03343167489087632,
+      "config": {
+        "learning_rate": 2e-05,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "epochs": 4
+      },
+      "time_seconds": 1.8968031406402588,
+      "val_loss": 0.11904445245586844,
+      "val_accuracy": 0.9647058823529412
+    }
+  ]
+}

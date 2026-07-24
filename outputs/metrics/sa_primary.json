@@ -1,0 +1,131 @@
+{
+  "track": "primary",
+  "method": "simulated_annealing",
+  "best_bitstring": [
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "best_qubo_energy": -0.016934122276522683,
+  "config": {
+    "learning_rate": 1e-05,
+    "dropout": 0.3,
+    "batch_size": 16,
+    "epochs": 3
+  },
+  "time_seconds": 0.03255915641784668,
+  "all_runs": [
+    {
+      "run": 0,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 1,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 2,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 3,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 4,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 5,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 6,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 7,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 8,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    },
+    {
+      "run": 9,
+      "best_bits": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "best_energy": -0.016934122276522683
+    }
+  ]
+}
