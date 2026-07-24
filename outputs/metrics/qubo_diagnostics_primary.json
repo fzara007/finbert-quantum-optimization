@@ -1,0 +1,7 @@
+{
+  "track": "primary",
+  "r_squared": 0.8179208370205139,
+  "mae": 0.029564558229258582,
+  "spearman_correlation": 0.9035923753665688,
+  "spearman_p_value": 1.4324066223336901e-12,
+  "best_config_match": 
